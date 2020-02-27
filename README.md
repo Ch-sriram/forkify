@@ -1,16 +1,16 @@
 # Forkify
 
-Search over 100,000 recipes online. Please click [here](https://forkify-ram.netlify.com/) or [here](https://forkify.chsriram.repl.co/) to use the app.
+Search over 100,000 recipes online. Please click <strong>[here](https://forkify-ram.netlify.com/) </strong>or <strong>[here](https://forkify.chsriram.repl.co/)</strong> to use the app.
 
 *Note: This app was made by following an online course. Please check the course details [here](https://www.udemy.com/course/the-complete-javascript-course/).*
 
 ## Development Workflow -x- Learnings
 
-There's a parent repository for this app, if the instructions in the parent repo are followed properly (the code is heavily commented), anyone can make this application. Please checkout the complete development workflow of this app [here (parent repo)](https://github.com/Ch-sriram/JavaScript#forkify-app-development-path-modern-js-es6-npm-babel-webpackforkify_project).
+There's a parent repository for this app, if the instructions in the parent repo are followed properly (the code is heavily commented), anyone can make this application. <strong>Please checkout the complete development workflow of this app [here (parent repo)](https://github.com/Ch-sriram/JavaScript#forkify-app-development-path-modern-js-es6-npm-babel-webpackforkify_project)</strong>.
 
 ## Features -x- Instructions
 
-1. Search for your favourite recipe by typing in the query in the search box. Please note that the number of search queries are limited to the list given [here](https://forkify-api.herokuapp.com/phrases.html).
+1. Search for your favourite recipe by typing in the query in the search box. <strong>Please note that the number of search queries are limited to the list given [here](https://forkify-api.herokuapp.com/phrases.html)</strong>.
 2. Select a recipe from the recipe list generated from the query. The recipe with the details about the number of servings, time taken to make it along with all the ingredients, will be rendered onto the webapp. You can tweak the number of servings by pressing &#8853;/&#8854; buttons and the quantity of each ingredient for the recipe will change accordingly.
 3. Add the recipe ingredients to the shopping list using the "ADD TO SHOPPING LIST" button. 
 4. Increase/Decrease the quantity of each ingredient you want in the shopping list by using the &#x21f3; button respectively.
