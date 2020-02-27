@@ -31,8 +31,8 @@ There's a parent repository for this app, if the instructions in the parent repo
 4. [webpack](https://webpack.js.org/guides/getting-started/)  -- dev dependency
 5. [babel](https://babeljs.io/docs/en/usage)    -- dev dependency
 
-Please check <code>package.json</code>, <code>webpack.config.js</code> and <code>.babelrc</code> file present inside <code>./config-src/</code> for more information on the dependencies and configuration.
+Please check <code>package.json</code>, <code>webpack.config.js</code> and <code>.babelrc</code> for more information on the dependencies and configuration.
 
-Check <code>./config-src/src/</code> for the code (Models - <code>./config-src/src/models/</code>, Views - <code>./config-src/src/views/</code>, Controller - <code>./config-src/src/index.js</code>) that makes the webapp work.
+Check <code>./src/</code> for the code (Models - <code>./src/models/</code>, Views - <code>./src/views/</code>, Controller - <code>./src/index.js</code>) that makes the webapp work.
 
-Original File Structure when developing the webapp can be found [here](https://github.com/Ch-sriram/JavaScript/tree/master/Modern-JS-ES6-NPM-Babel-Webpack/forkify_project). If you've the files in the original structure, then you can install the dependencies using <code>npm install</code> command using the shell/cmd/terminal in the cwd. After that, simply run <code>npm run start</code> command to run the app through the webpack-dev server @<code>localhost:8080</code>. To build it for production, run <code>npm run build</code> command in the shell. To build the app for development, run <code>npm run dev</code> command in the shell.
+If you've downloaded and want to run the app in the local environment, then you first have to install the dependencies using <code>npm install</code> command using the shell/cmd/terminal in the cwd. After that, simply run <code>npm run start</code> command to run the app through the webpack-dev server @<code>localhost:8080</code>. To build it for production, run <code>npm run build</code> command in the shell. To build the app for development, run <code>npm run dev</code> command in the shell.
