@@ -499,3 +499,37 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* code for github logo */
+.github-icon {
+    position: fixed;
+    z-index: 99 !important;
+    border: 5rem;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    padding: 1.5rem;
+    font-size: 4.5rem;
+    background: none;
+    border: none;
+    color: #000;
+    text-decoration: none;
+    line-height: 0;
+    /* filter: invert(100%); */
+}
+
+.github-icon:active {
+    transform: translateY(2px);
+}
+
+.github-icon:focus { outline: none; }
+
+#github-text {
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    margin: auto;
+    margin-top: .5rem !important;
+    font-family: monospace;
+}
