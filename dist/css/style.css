@@ -503,33 +503,46 @@ body {
 
 /* code for github logo */
 .github-icon {
-    position: fixed;
-    z-index: 99 !important;
-    border: 5rem;
-    cursor: pointer;
-    bottom: 0;
-    right: 0;
-    padding: 1.5rem;
-    font-size: 4.5rem;
-    background: none;
-    border: none;
-    color: #000;
-    text-decoration: none;
-    line-height: 0;
-    /* filter: invert(100%); */
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  z-index: 99 !important;
+  border: 1px dotted rgba(0, 0, 0, .5);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: none;
+  cursor: pointer;
+  bottom: 3%;
+  right: -70px;
+  padding: 1rem;
+  padding-left: .5rem;
+  font-size: 4.5rem;
+  background: none;
+  color: rgba(0, 0, 0, .5);
+  text-decoration: none;
+  line-height: 0;
+  transition: all .3s ease-in-out;
+  /* filter: invert(100%); */
 }
 
-.github-icon:active {
-    transform: translateY(2px);
+.github-icon:hover { 
+  right: -10px;
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 1);
+  border: 1px solid rgba(0, 0, 0, .8);
+  border-right: none;
+  color: rgba(0, 0, 0, .8);
 }
 
+.github-icon:active { transform: translateY(2px); }
 .github-icon:focus { outline: none; }
+.github-icon ion-icon {
+  pointer-events: none;
+  margin: 5px;
+}
 
-#github-text {
-    font-size: 1.5rem;
-    text-align: center;
-    border: none;
-    margin: auto;
-    margin-top: .5rem !important;
-    font-family: monospace;
+.github-icon > p {
+  font-size: 2rem;
+  margin: 5px;
+  border: none;
+  font-family: monospace;
 }
